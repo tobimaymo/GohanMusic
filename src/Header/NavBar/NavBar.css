@@ -1,0 +1,19 @@
+#contadorCarrito {
+    font-size: 30px
+  }
+#boton-carrito {
+    margin: 5px;
+    margin-right: 10px;
+    border: 3px;
+    background-color: white;
+    border-radius: 30px;
+  }
+#boton-carrito:hover {
+    background-color: #D7D7D7;
+  }
+.botonnav {
+    border-radius: 10px;
+  }
+.botonnav:hover{
+    background-color: #D7D7D7;
+  }
