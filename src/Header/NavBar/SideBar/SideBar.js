@@ -10,7 +10,7 @@ const SideBar = () => {
     </div>
     <div className="sidebarnav">
         <ul className="listasidebar">
-            <Link to={'GohanMusic/home'} className="links"><a>Home</a></Link>
+            <Link to={'/GohanMusic/'} className="links"><a>Home</a></Link>
             <Link to={'GohanMusic/home'} className="links"><a>BTS</a></Link>
             <Link to={'GohanMusic/home'} className="links"><a>Taylor Swift</a></Link>
             <Link to={'GohanMusic/home'} className="links"><a>Harry Styles</a></Link>
