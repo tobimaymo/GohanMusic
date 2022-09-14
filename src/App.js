@@ -3,9 +3,12 @@ import "./styles.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from "./Header/NavBar/NavBar";
 import Home from './Views/Home/Home'
-import AlbumDetail from './Views/AlbumDetail/AlbumDetail'
+import AlbumDetailContainer from './Views/AlbumDetail/AlbumDetailContainer'
+import BTS from './Views/BTS/BTS'
+import FooterBar from "./components/Footer/FooterBar";
 
-const App = () => {
+function App (){
+
     return (
       <>
       <Router>
@@ -13,9 +16,12 @@ const App = () => {
           <NavBar />
           <Routes>
             <Route path={'/GohanMusic/'} element={<Home />} />
-            <Route path={'/GohanMusic/detail/:id'} element={<AlbumDetail />} />
+            <Route path={'/GohanMusic/detail/:id'} element={<AlbumDetailContainer />} />
+            <Route path={'/GohanMusic/BTS'} element={<BTS />} />
+            <Route path={'/GohanMusic/cart'} />
           </Routes>
         </div>
+        <FooterBar />
       </Router>
       </>
     );

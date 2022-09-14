@@ -1,16 +1,14 @@
 import React from 'react'
-import FooterBar from "../../components/Footer/FooterBar";
 import Header from "../../Header/Principal/Header";
-import AlbumList from "../../components/AlbumList/AlbumList";
+import AlbumListContainer from '../../components/AlbumList/AlbumListContainer';
 
 const Home = () => {
   return (
     <>
-    <main>
+    <main className='bg-dark'>
         <Header />
-        <AlbumList />
+        <AlbumListContainer />
     </main>
-    <FooterBar />
     </>
   )
 }

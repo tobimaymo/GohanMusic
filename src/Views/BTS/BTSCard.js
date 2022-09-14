@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function AlbumCard( {data} ) {
+function BTSCard( {data} ) {
     return (
     <>
         <div className="col">
@@ -25,6 +25,6 @@ function AlbumCard( {data} ) {
   };
 
   
-  export default AlbumCard;
+  export default BTSCard;
 
   

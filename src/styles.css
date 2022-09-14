@@ -97,28 +97,3 @@
   background: #fefefe;
   border-color: #125688;
 }
-.headerimagen {
-  position: relative;
-  text-align: center;
-  color: white;
-  background-color: black;
-}
-.centered {
-  font-family: Copperplate;
-  font-size: 43px;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.copperplate {
-  font-family: Copperplate;
-  font-size: 25px;
-}
-.headercontainer {
-  margin: 40px 0px;
-  box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.50);
-}
-.midnightsalbum {
-  margin: 30px 0px;
-}

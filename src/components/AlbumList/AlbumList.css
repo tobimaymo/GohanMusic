@@ -86,3 +86,21 @@
 .descripcionalbum {
     font-size: 10px;
   }
+  .linkalbum {
+    text-decoration: none;
+  }
+  .album {
+    margin-top: 75px;
+    background-color: #212529
+  }
+  .albumBTS {
+    background-color: #212529;
+    padding-top: 75px;
+  }
+  .tituloBTS {
+    margin-top: 75px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+  }
