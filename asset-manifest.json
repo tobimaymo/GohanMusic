@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GohanMusic/static/css/main.fcc89daf.css",
-    "main.js": "/GohanMusic/static/js/main.19d1aff5.js",
+    "main.css": "/GohanMusic/static/css/main.35a58f03.css",
+    "main.js": "/GohanMusic/static/js/main.6fae9727.js",
     "index.html": "/GohanMusic/index.html",
-    "main.fcc89daf.css.map": "/GohanMusic/static/css/main.fcc89daf.css.map",
-    "main.19d1aff5.js.map": "/GohanMusic/static/js/main.19d1aff5.js.map"
+    "main.35a58f03.css.map": "/GohanMusic/static/css/main.35a58f03.css.map",
+    "main.6fae9727.js.map": "/GohanMusic/static/js/main.6fae9727.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcc89daf.css",
-    "static/js/main.19d1aff5.js"
+    "static/css/main.35a58f03.css",
+    "static/js/main.6fae9727.js"
   ]
 }
