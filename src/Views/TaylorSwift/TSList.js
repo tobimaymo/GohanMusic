@@ -1,6 +1,6 @@
 import ItemCard from "../../components/ItemCard/ItemCard"
 
-function BTSList({productos}) {
+function TSList({productos}) {
     
     return (
         productos.map((data) => 
@@ -9,4 +9,4 @@ function BTSList({productos}) {
     )
 }
 
-export default BTSList
+export default TSList

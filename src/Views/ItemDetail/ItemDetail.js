@@ -1,7 +1,19 @@
-import { Link } from "react-router-dom";
-import ItemCountContainer from "../../components/ItemCount/ItemCountContainer";
+import ItemCount from '../../components/ItemCount/ItemCount';
+import { useCartContext } from '../../context/CartContext';
 
-function AlbumDetail ({data}) {
+function ItemDetail ({data}) {
+
+  const {addToCart} = useCartContext()
+
+
+    const onAdd = (cantidad)=> {
+      const newItem = {
+        ...data,
+        cantidad
+      }
+      addToCart(newItem)
+    }
+
 
   return (
     <div className={`${data.alt}`}>
@@ -15,7 +27,7 @@ function AlbumDetail ({data}) {
             <p className="descDetail">{data.descripcion}</p>
             <div className="d-flex justify-content-evenly align-items-center">
               <div>
-                <ItemCountContainer/>
+                <ItemCount stock={data.stock} initial = {0} onAdd={onAdd}/>
               </div>
               <p className="precioDetail">{data.precio}</p>
           </div>
@@ -27,4 +39,4 @@ function AlbumDetail ({data}) {
   
 }
 
-export default AlbumDetail
+export default ItemDetail

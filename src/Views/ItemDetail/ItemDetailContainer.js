@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getFetch } from "../../helpers/getFetch";
-import AlbumDetail from "./AlbumDetail";
-import "./AlbumDetail.css"
-import "./AlbumClass.css"
+import ItemDetail from "./ItemDetail";
+import "./ItemDetail.css"
+import "./ItemClass.css"
 
 function ItemDetailContainer (){
     const [producto, setProducto] = useState({})
@@ -19,7 +19,7 @@ function ItemDetailContainer (){
 return (
     <>
         { loading ? <h2> cargando...</h2>
-        : <AlbumDetail data={producto}/>
+        : <ItemDetail data={producto}/>
     }
     </>
 )

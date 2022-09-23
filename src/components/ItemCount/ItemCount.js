@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 const ItemCount = ({stock, initial, onAdd}) => {
 
@@ -24,7 +23,7 @@ const [count, setCount] = useState(initial)
     <div>
         <div className='count'> {count}</div>
         <div>
-            <Link to={'/GohanMusic/cart'} className="button-75" onClick={AgregarCantidad}>Comprar</Link>
+            <button className="button-75" onClick={AgregarCantidad}>Comprar</button>
         </div>
         <div>
         <button className="button-74" onClick={resta}> - </button>

@@ -19,8 +19,13 @@
 .fearlesstv {
     background-image: linear-gradient( #A67A29, #D9BE6C);
 }
+.lover{
+    background-image: linear-gradient( #f9cbb6, #f3abc2, #d7b0d2, #c2badc, #a3c7eb);
+    color: #A11C50;
+}
 .loveyourselfanswer {
     background-image: linear-gradient( #f9cbb6, #f3abc2, #d7b0d2, #c2badc, #a3c7eb);
+    color: white;
 }
 .loveyourselftear {
     background-image: linear-gradient( #05060D, #101C26, #282245);
@@ -42,7 +47,9 @@
     color: white;
 }
 .reputation {
-    background-image: linear-gradient( #dadada, #727272, #404040);
+    /* background-image: url(../../../public/img/repbg.jpg); */
+    background-image: linear-gradient( #131313, #1C1C1C, #393939);
+    color: white;
 }
 .ynwa {
     background-image: linear-gradient( #a5d5d8, #95c1d6, #69b6bd);
@@ -51,4 +58,29 @@
 .speaknow {
     background-image: linear-gradient( #52316b, #923c81, #e2b7ce);
     color: white;
+}
+.dontsmileatme {
+    background-color: #F3EC7E;
+    color: #D9073F;
+}
+.loveyourselfher {
+    background-color: #EBEDF3;
+    color: #F0C7EE;
+}
+.tmbmilpt2{
+    background-image: linear-gradient( white, #46a6cf);
+}
+.tmbmilpt1{
+    background-image: linear-gradient( white, #DCAFA3);
+}
+.darkandwild{
+    background-color: #131313;
+    color: white;
+}
+.skoolluvaffair {
+    background-color: #42624A;
+    color: #F3B0D1 ;
+}
+.orul82 {
+    color: red;
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from "../../Header/Principal/Header";
-import AlbumListContainer from '../../components/AlbumList/AlbumListContainer';
+import ItemListContainer from '../../components/ItemList/ItemListContainer';
 
-const Home = () => {
+const Home = ({ItemData}) => {
   return (
     <>
     <main className='bg-dark'>
         <Header />
-        <AlbumListContainer />
+        <ItemListContainer ItemData={ItemData}/>
     </main>
     </>
   )

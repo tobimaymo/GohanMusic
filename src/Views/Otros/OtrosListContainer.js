@@ -1,23 +1,25 @@
-import BTSList from './BTSList';
+import OtrosList from './OtrosList';
 import { useContext } from 'react';
 import '../../components/ItemList/ItemList.css'
 import { ItemsContext } from '../../ItemsContext';
 
 
-function BTSListContainer() {
+function OtrosListContainer() {
 
     const [items, setItems] = useContext(ItemsContext)
-    let bts=items.filter(function(value) {
-        return value.autor == 'BTS';
+    let otros1=items.filter(function(value) {
+        return value.autor != 'Taylor Swift' ;
+    })
+    let otros2=otros1.filter(function(value) {
+        return value.autor != 'BTS' ;
     })
     
  return (
     <>
     <div div className="albumBTS py-5 bg-dark" id="divMain">
         <div div className="container">
-        <img src={process.env.PUBLIC_URL + "/img/BTSlogo.png"} width="500px" height="300px" className='tituloBTS'/>
             <div div id="contenedor-productos">
-                    <BTSList productos={bts} />
+                    <OtrosList productos={otros2} />
             </div>
         </div>
     </div>
@@ -25,4 +27,4 @@ function BTSListContainer() {
  );
 }
 
-export default BTSListContainer
+export default OtrosListContainer
