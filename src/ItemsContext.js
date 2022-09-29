@@ -11,6 +11,7 @@ const initialState = [
         alt:'proof',
         img:'/img/proof.png',
         precio:'$8000',
+        stock:'3',
         },
         {
         id:'30',
@@ -19,7 +20,8 @@ const initialState = [
         album:'Harry´s House',
         alt:'harryshouse',
         img:'/img/harryhouse.jpeg',
-        precio:'$8000'
+        precio:'$8000',
+        stock:'3',
         },
         {
         id:'29',
@@ -28,7 +30,8 @@ const initialState = [
         album:'Red (Taylor´s Version)',
         alt:'redtv',
         img:'/img/redtv.jpg',
-        precio:'$8000'
+        precio:'$8000',
+        stock:'3',
         },
         {
         id:'33',
@@ -37,7 +40,8 @@ const initialState = [
         album:'Happier Than Ever',
         alt:'happierthanever',
         img:'/img/hte.jpg',
-        precio:'$7000'
+        precio:'$7000',
+        stock:'3',
         },
         {
         id:'28',
@@ -46,7 +50,8 @@ const initialState = [
         album:'BUTTER',
         alt:'butter',
         img:'/img/butter.jpg',
-        precio:'$2500'
+        precio:'$2500',
+        stock:'3',
         },
         {
         id:'27',
@@ -55,7 +60,8 @@ const initialState = [
         album:'SOUR',
         alt:'sour',
         img:'/img/sour.jpg',
-        precio:'$7500'
+        precio:'$7500',
+        stock:'3',
         },
         {
         id:'26',
@@ -64,7 +70,8 @@ const initialState = [
         album:'Fearless (Taylor´s Version)',
         alt:'fearlesstv',
         img:'/img/fearlesstv.jpg',
-        precio:'$7500'
+        precio:'$7500',
+        stock:'3',
         },
         {
         id:'25',
@@ -73,7 +80,8 @@ const initialState = [
         album:'Evermore',
         alt:'evermore',
         img:'/img/evermore.jpg',
-        precio:'$7500'
+        precio:'$7500',
+        stock:'3',
         },
         {
         id:'24',
@@ -82,7 +90,8 @@ const initialState = [
         album:'BE',
         alt:'be',
         img:'/img/be.jpg',
-        precio:'$6000'
+        precio:'$6000',
+        stock:'3',
         },
         {
         id:'23',
@@ -91,7 +100,8 @@ const initialState = [
         album:'DYNAMITE',
         alt:'dynamite',
         img:'/img/dynamite.jpg',
-        precio:'$2000'
+        precio:'$2000',
+        stock:'3',
         },
         {
         id:'22',
@@ -100,7 +110,8 @@ const initialState = [
         album:'Folklore',
         alt:'folklore',
         img:'/img/folklore.jpg',
-        precio:'$6500'
+        precio:'$6500',
+        stock:'3',
         },
         {
         id:'21',
@@ -109,7 +120,8 @@ const initialState = [
         album:'MAP OF THE SOUL: 7',
         alt:'mapofthesoul7',
         img:'/img/mots7.jpg',
-        precio:'$5500'
+        precio:'$5500',
+        stock:'3',
         },
         {
         id:'20',
@@ -118,7 +130,8 @@ const initialState = [
         album:'Fine Line',
         alt:'fineline',
         img:'/img/fineline.jpg',
-        precio:'$5500'
+        precio:'$5500',
+        stock:'3',
         },
         {
         id:'19',
@@ -127,7 +140,8 @@ const initialState = [
         album:'Lover',
         alt:'lover',
         img:'/img/lover.jpg',
-        precio:'$5500'
+        precio:'$5500',
+        stock:'3',
         },
         {
         id:'18',
@@ -136,7 +150,8 @@ const initialState = [
         album:'MAP OF THE SOUL: Persona',
         alt:'mapofthesoulpersona',
         img:'/img/motsp.jpg',
-        precio:'$5000'
+        precio:'$5000',
+        stock:'3',
         },
         {
         id:'33',
@@ -145,7 +160,8 @@ const initialState = [
         album:'When We All Fall Asleep, Where Do We Go?',
         alt:'dontsmileatme',
         img:'/img/whenweall.jpg',
-        precio:'$5000'
+        precio:'$5000',
+        stock:'3',
         },
         {
         id:'17',
@@ -154,7 +170,8 @@ const initialState = [
         album:'LOVE YOURSELF 結: "ANSWER"',
         alt:'loveyourselfanswer',
         img:'/img/lya.jpg',
-        precio:'$4500'
+        precio:'$4500',
+        stock:'3',
         },
         {
         id:'16',
@@ -163,7 +180,8 @@ const initialState = [
         album:'LOVE YOURSELF 轉: "TEAR"',
         alt:'loveyourselftear',
         img:'/img/lyt.jpg',
-        precio:'$5000'
+        precio:'$5000',
+        stock:'3',
         },
         {
         id:'15',
@@ -172,7 +190,8 @@ const initialState = [
         album:'LOVE YOURSELF 承: "HER"',
         alt:'loveyourselfher',
         img:'/img/lyh.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'14',
@@ -181,7 +200,8 @@ const initialState = [
         album:'Reputation',
         alt:'reputation',
         img:'/img/rep.jpg',
-        precio:'$5500'
+        precio:'$5500',
+        stock:'3',
         },
         {
         id:'32',
@@ -190,7 +210,8 @@ const initialState = [
         album:'Don´t Smile At Me',
         alt:'dontsmileatme',
         img:'/img/dontsmileatme.jpg',
-        precio:'$4500'
+        precio:'$4500',
+        stock:'3',
         },
         {
         id:'13',
@@ -199,7 +220,8 @@ const initialState = [
         album:'Harry Styles',
         alt:'harrystylesalbum',
         img:'/img/hsa.jpg',
-        precio:'$5000'
+        precio:'$5000',
+        stock:'3',
         },
         {
         id:'12',
@@ -208,7 +230,8 @@ const initialState = [
         album:'YOU NEVER WALK ALONE',
         alt:'ynwa',
         img:'/img/ynwa.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'11',
@@ -217,7 +240,8 @@ const initialState = [
         album:'Wings',
         alt:'wings',
         img:'/img/wings.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'10',
@@ -226,7 +250,8 @@ const initialState = [
         album:'The most beautiful moments in life: "Young Forever"',
         alt:'tmbmilyf',
         img:'/img/tmbmilptyf.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'9',
@@ -235,7 +260,8 @@ const initialState = [
         album:'The most beautiful moments in life pt 2',
         alt:'tmbmilpt2',
         img:'/img/tmbmilpt2.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'8',
@@ -244,7 +270,8 @@ const initialState = [
         album:'The most beautiful moments in life pt 1',
         alt:'tmbmilpt1',
         img:'/img/tmbmilpt1.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'7',
@@ -253,7 +280,8 @@ const initialState = [
         album:'1989',
         alt:'1989',
         img:'/img/1989.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'6',
@@ -262,7 +290,8 @@ const initialState = [
         album:'DARK & WILD',
         alt:'darkandwild',
         img:'/img/dandw.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'5',
@@ -271,7 +300,8 @@ const initialState = [
         album:'SKOOL LUV AFFAIR',
         alt:'skoolluvaffair',
         img:'/img/ska.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'4',
@@ -280,7 +310,8 @@ const initialState = [
         album:'O!RUL8,2?',
         alt:'orul82',
         img:'/img/ORL82.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'3',
@@ -289,7 +320,8 @@ const initialState = [
         album:'2 COOL 4 SKOOL',
         alt:'2cool4skool',
         img:'/img/2c4s.jpg',
-        precio:'$4000'
+        precio:'$4000',
+        stock:'3',
         },
         {
         id:'2',
@@ -298,7 +330,8 @@ const initialState = [
         album:'Speak Now',
         alt:'speaknow',
         img:'/img/speakn.jpg',
-        precio:'$4500'
+        precio:'$4500',
+        stock:'3',
         },
         {
         id:'1',
@@ -307,7 +340,8 @@ const initialState = [
         album:'Taylor Swift',
         alt:'tsalbum',
         img:'/img/ts.jpg',
-        precio:'$3000'
+        precio:'$3000',
+        stock:'3',
         },
 ]
 
@@ -320,3 +354,19 @@ export const AlbumsProvider = ({children}) => {
         </ItemsContext.Provider>
     )
 };
+export const getItems = new Promise((respuesta, rejected) => {
+    let url = initialState
+    if (url === initialState) {
+        setTimeout(() => {
+            respuesta(initialState);
+        }, 2000);
+        } else {
+            rejected('404 no encontrado')
+        }
+    }
+)
+const itemsNames = initialState.map((item, idx) => {
+    return `[${idx + 1}]Nombre: ${item.nombre} - Precio: $${item.precio}`;
+  });
+  
+  console.log(itemsNames);

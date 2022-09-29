@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getFetch } from "../../helpers/getFetch";
 import ItemDetail from "./ItemDetail";
 import "./ItemDetail.css"
 import "./ItemClass.css"
+import { getItems } from "../../ItemsContext";
 
 function ItemDetailContainer (){
     const [producto, setProducto] = useState({})
@@ -11,7 +11,7 @@ function ItemDetailContainer (){
     let {id} = useParams()
 
     useEffect(() => {
-        getFetch
+        getItems
         .then(resp => setProducto(resp.find(prod => prod.id === id)))
         .finally(() => setloading(false))
     }, [])
